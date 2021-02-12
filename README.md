@@ -20,6 +20,7 @@ FIREBASE_MEASUREMENT_ID="G-P4N3TPO1XY"
 
 ## Highlights
 
+- Typescript
 - Support `.env` files for separate development and production configurations
 - Core Redux config
 - Built-in Firebase config with a couple helper functions and working Firebase Auth example (uses Redux)
