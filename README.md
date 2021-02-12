@@ -4,9 +4,19 @@ This just a small React starter boilerplate I use for personal projects. Yes, [C
 
 ## Usage
 
-`git clone git@github.com:igor-krupenja/react-boilerplate.git; rm -rf react-boilerplate/.git`
+1. `git clone git@github.com:igor-krupenja/react-boilerplate.git; rm -rf react-boilerplate/.git`. This will clone the repo and remove `.git` folder so that the folder can be initialised as a new project.
+2. Add an environment config file (e.g. `.env.development`) to repo root with your Firebase config, e.g. (dummy data):
 
-This will clone the repo and remove `.git` folder so that the folder can be initialised as a new project.
+```env
+FIREBASE_API_KEY="AIzaSyD_GYhIIBfdFHvUDFpuIHQdSK7nio-dLM"
+FIREBASE_AUTH_DOMAIN="zaino-12345.firebaseapp.com"
+FIREBASE_DATABASE_URL="https://zaino-12345.firebaseio.com"
+FIREBASE_PROJECT_ID="zaino-12345"
+FIREBASE_STORAGE_BUCKET="zaino-12345.appspot.com"
+FIREBASE_MESSAGING_SENDER_ID="55797789077"
+FIREBASE_APP_ID="1:570956282077:web:07ebe6d7e2b2ef01494f74"
+FIREBASE_MEASUREMENT_ID="G-P4N3TPO1XY"
+```
 
 ## Highlights
 
