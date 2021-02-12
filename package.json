@@ -44,7 +44,6 @@
     "react-google-button": "^0.7.2",
     "react-redux": "^7.2.1",
     "react-router-dom": "^5.2.0",
-    "react-tiny-popover": "5.1.0",
     "redux": "^4.0.5",
     "sass-loader": "^10.0.2",
     "sass-resources-loader": "^2.1.0",

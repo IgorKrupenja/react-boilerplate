@@ -5,20 +5,14 @@
   box-sizing: border-box;
 }
 
-// needed for loading indicator to work
 html,
 body,
 #app {
   height: 100%;
-}
-
-html {
-  // conversion to use rem units more easily (1 rem = 10 px after 62.5% conversion)
-  font-size: 62.5%;
+  background-color: $off-white;
 }
 
 body {
-  color: $off-black;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu',
     'Cantarell', Helvetica, Arial, sans-serif;
   font-size: $font-size-p;

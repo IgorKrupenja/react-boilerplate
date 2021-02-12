@@ -14,7 +14,7 @@ export const LoginPage = () => {
       <Logo />
       <GoogleButton
         // fix width, cannot set in SCSS as component overwrites className styles with inline styles
-        style={{ width: '20rem', textAlign: 'start' }}
+        style={{ width: '12.5rem', textAlign: 'start' }}
         type="light"
         onClick={() => dispatch(login())}
       />
