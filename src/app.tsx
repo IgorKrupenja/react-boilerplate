@@ -7,6 +7,7 @@ import AppRouter from './routes/AppRouter';
 import { setUserDetails } from './state/slices/user';
 import store from './state/store';
 import './styles/styles.scss';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 const app = (
   <Provider store={store}>

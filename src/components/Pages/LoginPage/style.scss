@@ -1,5 +1,4 @@
 .login-page {
-  position: relative;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -22,15 +21,21 @@
   }
 }
 
+// Text animation adapted from https://codepen.io/kh-mamun/pen/NdwZdW by Mamun Khandaker
+
 .login-page__title {
-  font-size: 50px;
-  margin: 100px 0 0;
-  border-bottom: 2px solid #ccc;
+  margin-bottom: $xl-size;
+  font-size: 5rem;
+  font-weight: 600;
+  text-transform: uppercase;
 }
 
 .login-page__title span {
-  color: #b10e81;
+  display: inline-block;
+
+  color: $green;
   opacity: 0;
+
   transform: translate(-300px, 0) scale(0);
   animation: sideSlide 0.5s forwards;
 }
@@ -96,22 +101,22 @@
 @keyframes sideSlide {
   60% {
     transform: translate(20px, 0) scale(1);
-    color: #b10e81;
+    color: $green;
   }
 
   80% {
     transform: translate(20px, 0) scale(1);
-    color: #b10e81;
+    color: $green;
   }
 
   99% {
     transform: translate(0) scale(1.2);
-    color: #00f0ff;
+    color: $yellow;
   }
 
   100% {
     transform: translate(0) scale(1);
     opacity: 1;
-    color: #b10e81;
+    color: $green;
   }
 }

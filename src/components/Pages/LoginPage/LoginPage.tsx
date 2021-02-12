@@ -10,13 +10,12 @@ export const LoginPage = () => {
 
   return (
     <main className="login-page">
-      <h2 className="login-page__title">
+      <h1 className="login-page__title">
         <span>R</span>
         <span>e</span>
         <span>a</span>
         <span>c</span>
-        <span>t</span>
-        <span>&nbsp;</span>
+        <span>t</span> &nbsp;
         <span>b</span>
         <span>o</span>
         <span>i</span>
@@ -28,9 +27,9 @@ export const LoginPage = () => {
         <span>a</span>
         <span>t</span>
         <span>e</span>
-      </h2>
+      </h1>
       <GoogleButton
-        // fix width, cannot set in SCSS as component overwrites class styles with inline styles
+        // fix width, cannot set in SCSS as component overwrites className styles with inline styles
         style={{ width: '20rem', textAlign: 'start' }}
         type="light"
         onClick={() => dispatch(login())}
