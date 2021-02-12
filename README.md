@@ -4,7 +4,9 @@ This just a small React starter boilerplate I use for personal projects. Yes, [C
 
 ## Usage
 
-...
+`git clone git@github.com:igor-krupenja/react-boilerplate.git; rm -rf react-boilerplate/.git`
+
+This will clone the repo and remove `.git` folder so that the folder can be initialised as a new project.
 
 ## Highlights
 
