@@ -29,9 +29,7 @@ const userSlice = createSlice({
     },
   },
   extraReducers: builder => {
-    builder.addCase(logout.pending, () => {
-      return initialState;
-    });
+    builder.addCase(logout.pending, () => initialState);
   },
 });
 
