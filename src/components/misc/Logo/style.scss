@@ -1,0 +1,99 @@
+// Text animation adapted from https://codepen.io/kh-mamun/pen/NdwZdW by Mamun Khandaker
+
+.logo {
+  margin-bottom: $xl-size;
+  font-size: 5rem;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.logo span {
+  display: inline-block;
+
+  color: $green;
+  opacity: 0;
+
+  transform: translate(-300px, 0) scale(0);
+  animation: sideSlide 0.5s forwards;
+}
+
+.logo span:nth-of-type(2) {
+  animation-delay: 0.05s;
+}
+.logo span:nth-of-type(3) {
+  animation-delay: 0.1s;
+}
+.logo span:nth-of-type(4) {
+  animation-delay: 0.15s;
+}
+.logo span:nth-of-type(5) {
+  animation-delay: 0.2s;
+}
+.logo span:nth-of-type(6) {
+  animation-delay: 0.25s;
+}
+.logo span:nth-of-type(7) {
+  animation-delay: 0.3s;
+}
+.logo span:nth-of-type(8) {
+  animation-delay: 0.35s;
+}
+.logo span:nth-of-type(9) {
+  animation-delay: 0.4s;
+}
+.logo span:nth-of-type(10) {
+  animation-delay: 0.45s;
+}
+.logo span:nth-of-type(11) {
+  animation-delay: 0.5s;
+}
+.logo span:nth-of-type(12) {
+  animation-delay: 0.55s;
+}
+.logo span:nth-of-type(13) {
+  animation-delay: 0.6s;
+}
+.logo span:nth-of-type(14) {
+  animation-delay: 0.65s;
+}
+.logo span:nth-of-type(15) {
+  animation-delay: 0.7s;
+}
+.logo span:nth-of-type(16) {
+  animation-delay: 0.75s;
+}
+.logo span:nth-of-type(17) {
+  animation-delay: 0.8s;
+}
+.logo span:nth-of-type(18) {
+  animation-delay: 0.85s;
+}
+.logo span:nth-of-type(19) {
+  animation-delay: 0.9s;
+}
+.logo span:nth-of-type(20) {
+  animation-delay: 0.95s;
+}
+
+@keyframes sideSlide {
+  60% {
+    transform: translate(20px, 0) scale(1);
+    color: $green;
+  }
+
+  80% {
+    transform: translate(20px, 0) scale(1);
+    color: $green;
+  }
+
+  99% {
+    transform: translate(0) scale(1.2);
+    color: $yellow;
+  }
+
+  100% {
+    transform: translate(0) scale(1);
+    opacity: 1;
+    color: $green;
+  }
+}

@@ -2,6 +2,7 @@ import React from 'react';
 import GoogleButton from 'react-google-button';
 import { useDispatch } from 'react-redux';
 import { login } from '../../../state/slices/user';
+import { Logo } from '../../misc/Logo';
 import './style.scss';
 
 export const LoginPage = () => {
@@ -10,24 +11,7 @@ export const LoginPage = () => {
 
   return (
     <main className="login-page">
-      <h1 className="login-page__title">
-        <span>R</span>
-        <span>e</span>
-        <span>a</span>
-        <span>c</span>
-        <span>t</span> &nbsp;
-        <span>b</span>
-        <span>o</span>
-        <span>i</span>
-        <span>l</span>
-        <span>e</span>
-        <span>r</span>
-        <span>p</span>
-        <span>l</span>
-        <span>a</span>
-        <span>t</span>
-        <span>e</span>
-      </h1>
+      <Logo />
       <GoogleButton
         // fix width, cannot set in SCSS as component overwrites className styles with inline styles
         style={{ width: '20rem', textAlign: 'start' }}
