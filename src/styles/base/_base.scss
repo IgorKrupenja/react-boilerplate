@@ -1,0 +1,46 @@
+// custom font, used in header and login page atm
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+// needed for loading indicator to work
+html,
+body,
+#app {
+  height: 100%;
+}
+
+#app {
+  // for fixed header
+  position: relative;
+}
+
+html {
+  // conversion to use rem units more easily (1 rem = 10 px after 62.5% conversion)
+  font-size: 62.5%;
+}
+
+body {
+  color: $off-black;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu',
+    'Cantarell', Helvetica, Arial, sans-serif;
+  font-size: $font-size-medium;
+  line-height: 1.4;
+}
+
+h2,
+h3,
+p,
+ul {
+  margin: 0;
+}
+
+a {
+  color: $off-black;
+}
+
+::selection {
+  background: lighten($light-blue, 40%);
+}

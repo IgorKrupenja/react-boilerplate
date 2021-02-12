@@ -1,0 +1,42 @@
+node_modules/
+dist/
+.env.development
+.env.test
+.env.production
+# playground/sandbox folder
+sandbox/
+# Webpack stats
+stats.json
+# Firebasse hosting cache
+.firebase/
+# firebase projects config
+.firebaserc
+# produced by firebase serve
+firebase-debug.log
+# yarn error logs, e.g. when package not found in npm DB
+yarn-error.log
+# WebStorm stuff just in case
+.idea
+
+############################# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+# Icon must end with two \r
+Icon
+# Thumbnails
+._*
+# Files that might appear in the root of a volume
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
+# Directories potentially created on remote AFP share
+.AppleDB
+.AppleDesktop
+Network Trash Folder
+Temporary Items
+.apdisk

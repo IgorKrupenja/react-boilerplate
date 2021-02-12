@@ -1,0 +1,9 @@
+{
+  "watch": [
+    "webpack.config.ts",
+    "tsconfig.json",
+    "tsconfig-for-webpack-config.json",
+    "nodemon.json",
+    "src/images/favicon.png"
+  ]
+}
