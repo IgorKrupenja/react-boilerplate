@@ -33,5 +33,6 @@
   ],
   "npm.packageManager": "yarn",
   "eslint.packageManager": "yarn",
-  "prettier.packageManager": "yarn"
+  "prettier.packageManager": "yarn",
+  "html-css-class-completion.excludeGlobPattern": "{node_modules,doc,docs,.bundle,vendor}/**!(bootstrap*)"
 }
